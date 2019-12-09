@@ -6,8 +6,8 @@ def run_guessing_game
   
   if answer == number 
 
-
-  
+  puts "You win."
+  elsif answer == "exit"
   elsif answer == "exit"
   puts "Goodbye!"
   end
