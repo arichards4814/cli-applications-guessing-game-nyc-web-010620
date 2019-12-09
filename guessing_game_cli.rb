@@ -4,12 +4,13 @@ def run_guessing_game
   number = rand(6) + 1
   answer = gets.chomp
   
-  if answer == number 
-
-  puts "You win."
-  elsif answer == "exit"
-  elsif answer == "exit"
-  puts "Goodbye!"
+  if answer == "exit" 
+puts "Goodbye!"
+  
+  elsif answer == number
+  puts "You win!"
+  else
+  puts "You lose!"
   end
   
 end
