@@ -5,12 +5,11 @@ def run_guessing_game
   answer = gets.chomp
   
   if answer == "exit" 
-  puts "Goodbye!"
-  
-  elsif answer == number
-  puts "You guessed the correct number!"
+    puts "Goodbye!"
+  elsif answer == number.to_s
+    puts "You guessed the correct number!"
   else
-  puts "Sorry! The computer guessed " + number.to_s + "."
+    puts "Sorry! The computer guessed " + number.to_s + "."
   end
   
 end
