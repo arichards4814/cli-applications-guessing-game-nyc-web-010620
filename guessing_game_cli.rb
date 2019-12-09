@@ -4,9 +4,7 @@ def run_guessing_game ()
   number = rand(6)
   answer = gets.chomp
   
-  if answer == number
-    
-  elsif
+  if answer == number do
   
   elsif answer == "exit"
   puts "Goodbye!"
