@@ -10,7 +10,7 @@ puts "Goodbye!"
   elsif answer == number
   puts "You win!"
   else
-  puts "You lose!"
+  puts "Sorry! The computer guessed " + number + "."
   end
   
 end
