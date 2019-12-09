@@ -10,7 +10,7 @@ puts "Goodbye!"
   elsif answer == number
   puts "You win!"
   else
-  puts "Sorry! The computer guessed " + number + "."
+  puts "Sorry! The computer guessed " + number.to_s + "."
   end
   
 end
